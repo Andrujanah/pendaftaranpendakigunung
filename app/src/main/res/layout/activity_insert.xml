@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertActivity"
+    android:background="@drawable/praudieng">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+    <EditText
+        android:id="@+id/inpIdPendaki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:inputType="number"
+        android:hint="ID Pendaki" />
+
+    <EditText
+        android:id="@+id/inpNamaPendaki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:inputType="textPersonName"
+        android:hint="Nama Pendaki" />
+
+    <EditText
+        android:id="@+id/inpAlamatPendaki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:inputType="textMultiLine"
+        android:hint="Alamat Pendaki"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/inpNoTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textSize="25dp"
+        android:ems="12"
+        android:maxLength="12"
+        android:maxEms="12"
+        android:hint="No Telepon"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="Tanggal Naik"
+        android:inputType="date"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="Tanggal Turun"
+        android:inputType="date"/>
+
+    <Button
+        android:id="@+id/btn_SimpanData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:onClick="simpanPendaki"
+        android:text="Simpan" />
+
+    </LinearLayout>
+</LinearLayout>

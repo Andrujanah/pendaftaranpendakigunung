@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainMenu"
+    android:padding="20dp"
+    android:background="@drawable/praudieng">
+
+    <Button
+        android:id="@+id/insertData"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:onClick="insertData"
+        android:textColor="@android:color/black"
+        android:drawableTop="@drawable/person_ui"
+        android:layout_gravity="center"
+        android:text=" Insert Pendaki" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/editData"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:onClick="editData"
+        android:drawableTop="@drawable/update_ui"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:text="Edit Data Pendaki" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:onClick="listData"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/list_ui"
+        android:textColor="@android:color/black"
+        android:text="List Pendakian" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/listData"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:onClick="listData"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/list_ui"
+        android:textColor="@android:color/black"
+        android:text="List Data Pendaki" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="140dp"
+        android:text="SIGN OUT"
+        android:id="@+id/sign_out"
+        android:background="@android:color/white"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

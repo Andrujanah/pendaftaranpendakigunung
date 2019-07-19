@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+    <TextView
+        android:id="@+id/listNamaPendaki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/user_ui"
+        android:textSize="20sp"
+        android:text="Nama Pendaki" />
+
+    <TextView
+        android:id="@+id/listWaktuPosted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="waktu Posted" />
+
+    <TextView
+        android:id="@+id/listAlamatPendaki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat" />
+
+    <TextView
+        android:id="@+id/listNoTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Telepon" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
